@@ -12,6 +12,7 @@ NC='\033[0m' # No Color
 
 {
 echo -e "${RED}"
+## To change your production environment name, edit the text below:
 figlet "Heffner Prod"
 echo -e "${NC}"
 
