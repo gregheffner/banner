@@ -6,7 +6,8 @@ This repository contains the `banner-and-fetch.sh` script.
 
 ## Description
 
-`banner-and-fetch.sh` is a shell script designed to display a banner and perform fetch operations. It is intended for use in Unix-like environments (macOS, Linux) and can be executed from the terminal.
+
+`banner-and-fetch.sh` is a shell script designed to display a banner and perform fetch operations. It uses the popular `neofetch` script to display system information alongside the custom banner. Please note: I did not create the `neofetch` script; it is an open-source tool used here to complement my own script.
 
 ## Usage
 
