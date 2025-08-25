@@ -7,7 +7,7 @@ This repository contains the `banner-and-fetch.sh` script.
 ## Description
 
 
-`banner-and-fetch.sh` is a shell script designed to display a banner and perform fetch operations. It uses the popular `neofetch` script to display system information alongside the custom banner. Please note: I did not create the `neofetch` script; it is an open-source tool used here to complement my own script.
+`banner-and-fetch.sh` is a shell script designed to display a banner and perform fetch operations. It uses the popular [`neofetch`](https://github.com/dylanaraps/neofetch) script to display system information alongside the custom banner. Please note: I did not create the `neofetch` script; it is an open-source tool used here to complement my own script.
 
 ## Usage
 
@@ -26,19 +26,26 @@ This repository contains the `banner-and-fetch.sh` script.
    ```
 
 
+
 ## Requirements
 
 - macOS or Linux
 - Bash or compatible shell
 - figlet (for banner display)
+- neofetch (for system information)
+
 
 ## Setup
 
 To install required packages, run:
 
 ```sh
-brew install figlet   # macOS
-sudo apt-get install figlet   # Ubuntu/Debian
+# macOS
+brew install figlet neofetch
+
+# Ubuntu/Debian
+sudo apt-get update
+sudo apt-get install figlet neofetch
 ```
 
 ## License
